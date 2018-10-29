@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YSDExtension_Example' do
+  pod 'YSDExtension', :path => '../'
+
+  target 'YSDExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
